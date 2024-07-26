@@ -1,8 +1,10 @@
 
-**MatchMate - Matrimonial Card Interface (iOS)**
+**Matchmaker App - Matrimonial Card Interface (iOS)**
 
 Project Description
 MatchmakerApp is an iOS application that simulates a matrimonial app by displaying match cards similar to Shaadi.com's card format. The app fetches user data from an API, displays it using SwiftUI, and allows users to accept or decline matches. The app ensures persistence of user decisions even in offline mode by using Core Data.
+
+This project is a small implementation of a larger vision aimed at creating a comprehensive matrimonial application with more advanced features and functionalities planned for future development.
 
 **Features**
 
