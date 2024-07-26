@@ -1,0 +1,30 @@
+PODS:
+  - lottie-ios (4.4.3)
+  - ReachabilitySwift (5.2.3)
+  - SDWebImage (5.19.2):
+    - SDWebImage/Core (= 5.19.2)
+  - SDWebImage/Core (5.19.2)
+  - SDWebImageSwiftUI (3.0.4):
+    - SDWebImage (~> 5.10)
+
+DEPENDENCIES:
+  - lottie-ios
+  - ReachabilitySwift
+  - SDWebImageSwiftUI
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+    - ReachabilitySwift
+    - SDWebImage
+    - SDWebImageSwiftUI
+
+SPEC CHECKSUMS:
+  lottie-ios: fcb5e73e17ba4c983140b7d21095c834b3087418
+  ReachabilitySwift: 7f151ff156cea1481a8411701195ac6a984f4979
+  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
+  SDWebImageSwiftUI: 824628d8220906aa101f62b39a7492edd138449d
+
+PODFILE CHECKSUM: 6823b4b47c0c243d966796fcc63696b35045e51d
+
+COCOAPODS: 1.15.2

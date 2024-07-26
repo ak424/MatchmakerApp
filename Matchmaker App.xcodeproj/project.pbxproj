@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8E5C88FE97931DAD64408E5 /* Pods_Matchmaker_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49203EE5153093011BE5B856 /* Pods_Matchmaker_App.framework */; };
+		F7389E322C516967008CC2CE /* Matchmaker_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E312C516967008CC2CE /* Matchmaker_AppApp.swift */; };
+		F7389E342C516967008CC2CE /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E332C516967008CC2CE /* CardListView.swift */; };
+		F7389E362C516968008CC2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7389E352C516968008CC2CE /* Assets.xcassets */; };
+		F7389E392C516968008CC2CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7389E382C516968008CC2CE /* Preview Assets.xcassets */; };
+		F7389E402C5170BF008CC2CE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E3F2C5170BF008CC2CE /* NetworkService.swift */; };
+		F7389E422C517171008CC2CE /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E412C517171008CC2CE /* NetworkRequest.swift */; };
+		F7389E442C5171F6008CC2CE /* UserDetailsNetworkAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E432C5171F6008CC2CE /* UserDetailsNetworkAPIs.swift */; };
+		F7389E462C517503008CC2CE /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E452C517503008CC2CE /* UserModels.swift */; };
+		F7389E492C522B0A008CC2CE /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E482C522B0A008CC2CE /* UserDetailsViewModel.swift */; };
+		F7389E4D2C5262DE008CC2CE /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E4C2C5262DE008CC2CE /* CustomImageView.swift */; };
+		F7389E522C52A951008CC2CE /* MatchmakerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7389E502C52A951008CC2CE /* MatchmakerApp.xcdatamodeld */; };
+		F7389E592C52CA87008CC2CE /* CardDetails+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E582C52CA87008CC2CE /* CardDetails+CoreDataProperties copy.swift */; };
+		F7389E5B2C52CA94008CC2CE /* CardDetails+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E5A2C52CA94008CC2CE /* CardDetails+CoreDataClass copy.swift */; };
+		F7389E5D2C52CB42008CC2CE /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E5C2C52CB42008CC2CE /* PersistenceManager.swift */; };
+		F7389E5F2C538A1F008CC2CE /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E5E2C538A1F008CC2CE /* UserCardView.swift */; };
+		F7389E632C53A689008CC2CE /* CustomErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E622C53A689008CC2CE /* CustomErrorView.swift */; };
+		F7389E652C53AB98008CC2CE /* CustomLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7389E642C53AB98008CC2CE /* CustomLottieView.swift */; };
+		F7389E672C53AF2D008CC2CE /* Custom_Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = F7389E662C53AF2D008CC2CE /* Custom_Loader.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49203EE5153093011BE5B856 /* Pods_Matchmaker_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matchmaker_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87322C64EA287C53C864A8E7 /* Pods-Matchmaker App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchmaker App.release.xcconfig"; path = "Target Support Files/Pods-Matchmaker App/Pods-Matchmaker App.release.xcconfig"; sourceTree = "<group>"; };
+		D2E2B700D03EC0CDA8B6E052 /* Pods-Matchmaker App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchmaker App.debug.xcconfig"; path = "Target Support Files/Pods-Matchmaker App/Pods-Matchmaker App.debug.xcconfig"; sourceTree = "<group>"; };
+		F7389E2E2C516967008CC2CE /* Matchmaker App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matchmaker App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7389E312C516967008CC2CE /* Matchmaker_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matchmaker_AppApp.swift; sourceTree = "<group>"; };
+		F7389E332C516967008CC2CE /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		F7389E352C516968008CC2CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7389E382C516968008CC2CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7389E3F2C5170BF008CC2CE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F7389E412C517171008CC2CE /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		F7389E432C5171F6008CC2CE /* UserDetailsNetworkAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsNetworkAPIs.swift; sourceTree = "<group>"; };
+		F7389E452C517503008CC2CE /* UserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
+		F7389E482C522B0A008CC2CE /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
+		F7389E4C2C5262DE008CC2CE /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		F7389E512C52A951008CC2CE /* MatchmakerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MatchmakerApp.xcdatamodel; sourceTree = "<group>"; };
+		F7389E582C52CA87008CC2CE /* CardDetails+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CardDetails+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+		F7389E5A2C52CA94008CC2CE /* CardDetails+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CardDetails+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		F7389E5C2C52CB42008CC2CE /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		F7389E5E2C538A1F008CC2CE /* UserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
+		F7389E622C53A689008CC2CE /* CustomErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorView.swift; sourceTree = "<group>"; };
+		F7389E642C53AB98008CC2CE /* CustomLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLottieView.swift; sourceTree = "<group>"; };
+		F7389E662C53AF2D008CC2CE /* Custom_Loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Custom_Loader.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7389E2B2C516967008CC2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E5C88FE97931DAD64408E5 /* Pods_Matchmaker_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C459C3533AC8D55D276BDD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49203EE5153093011BE5B856 /* Pods_Matchmaker_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EF7527291CD78F670F10454 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2E2B700D03EC0CDA8B6E052 /* Pods-Matchmaker App.debug.xcconfig */,
+				87322C64EA287C53C864A8E7 /* Pods-Matchmaker App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7389E252C516967008CC2CE = {
+			isa = PBXGroup;
+			children = (
+				F7389E302C516967008CC2CE /* Matchmaker App */,
+				F7389E2F2C516967008CC2CE /* Products */,
+				5EF7527291CD78F670F10454 /* Pods */,
+				4C459C3533AC8D55D276BDD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7389E2F2C516967008CC2CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7389E2E2C516967008CC2CE /* Matchmaker App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7389E302C516967008CC2CE /* Matchmaker App */ = {
+			isa = PBXGroup;
+			children = (
+				F7389E502C52A951008CC2CE /* MatchmakerApp.xcdatamodeld */,
+				F7389E5A2C52CA94008CC2CE /* CardDetails+CoreDataClass copy.swift */,
+				F7389E582C52CA87008CC2CE /* CardDetails+CoreDataProperties copy.swift */,
+				F7389E5C2C52CB42008CC2CE /* PersistenceManager.swift */,
+				F7389E3F2C5170BF008CC2CE /* NetworkService.swift */,
+				F7389E412C517171008CC2CE /* NetworkRequest.swift */,
+				F7389E432C5171F6008CC2CE /* UserDetailsNetworkAPIs.swift */,
+				F7389E452C517503008CC2CE /* UserModels.swift */,
+				F7389E482C522B0A008CC2CE /* UserDetailsViewModel.swift */,
+				F7389E312C516967008CC2CE /* Matchmaker_AppApp.swift */,
+				F7389E332C516967008CC2CE /* CardListView.swift */,
+				F7389E5E2C538A1F008CC2CE /* UserCardView.swift */,
+				F7389E352C516968008CC2CE /* Assets.xcassets */,
+				F7389E372C516968008CC2CE /* Preview Content */,
+				F7389E4C2C5262DE008CC2CE /* CustomImageView.swift */,
+				F7389E622C53A689008CC2CE /* CustomErrorView.swift */,
+				F7389E642C53AB98008CC2CE /* CustomLottieView.swift */,
+				F7389E662C53AF2D008CC2CE /* Custom_Loader.json */,
+			);
+			path = "Matchmaker App";
+			sourceTree = "<group>";
+		};
+		F7389E372C516968008CC2CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7389E382C516968008CC2CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7389E2D2C516967008CC2CE /* Matchmaker App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7389E3C2C516968008CC2CE /* Build configuration list for PBXNativeTarget "Matchmaker App" */;
+			buildPhases = (
+				685603D0D59B90748869D7A3 /* [CP] Check Pods Manifest.lock */,
+				F7389E2A2C516967008CC2CE /* Sources */,
+				F7389E2B2C516967008CC2CE /* Frameworks */,
+				F7389E2C2C516967008CC2CE /* Resources */,
+				D9EA61E377B64D3F44470207 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Matchmaker App";
+			productName = "Matchmaker App";
+			productReference = F7389E2E2C516967008CC2CE /* Matchmaker App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7389E262C516967008CC2CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F7389E2D2C516967008CC2CE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F7389E292C516967008CC2CE /* Build configuration list for PBXProject "Matchmaker App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7389E252C516967008CC2CE;
+			productRefGroup = F7389E2F2C516967008CC2CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7389E2D2C516967008CC2CE /* Matchmaker App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7389E2C2C516967008CC2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7389E392C516968008CC2CE /* Preview Assets.xcassets in Resources */,
+				F7389E672C53AF2D008CC2CE /* Custom_Loader.json in Resources */,
+				F7389E362C516968008CC2CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		685603D0D59B90748869D7A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Matchmaker App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9EA61E377B64D3F44470207 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Matchmaker App/Pods-Matchmaker App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Matchmaker App/Pods-Matchmaker App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Matchmaker App/Pods-Matchmaker App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7389E2A2C516967008CC2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7389E4D2C5262DE008CC2CE /* CustomImageView.swift in Sources */,
+				F7389E492C522B0A008CC2CE /* UserDetailsViewModel.swift in Sources */,
+				F7389E5B2C52CA94008CC2CE /* CardDetails+CoreDataClass copy.swift in Sources */,
+				F7389E342C516967008CC2CE /* CardListView.swift in Sources */,
+				F7389E402C5170BF008CC2CE /* NetworkService.swift in Sources */,
+				F7389E5D2C52CB42008CC2CE /* PersistenceManager.swift in Sources */,
+				F7389E442C5171F6008CC2CE /* UserDetailsNetworkAPIs.swift in Sources */,
+				F7389E422C517171008CC2CE /* NetworkRequest.swift in Sources */,
+				F7389E652C53AB98008CC2CE /* CustomLottieView.swift in Sources */,
+				F7389E632C53A689008CC2CE /* CustomErrorView.swift in Sources */,
+				F7389E522C52A951008CC2CE /* MatchmakerApp.xcdatamodeld in Sources */,
+				F7389E462C517503008CC2CE /* UserModels.swift in Sources */,
+				F7389E322C516967008CC2CE /* Matchmaker_AppApp.swift in Sources */,
+				F7389E592C52CA87008CC2CE /* CardDetails+CoreDataProperties copy.swift in Sources */,
+				F7389E5F2C538A1F008CC2CE /* UserCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7389E3A2C516968008CC2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7389E3B2C516968008CC2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7389E3D2C516968008CC2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E2B700D03EC0CDA8B6E052 /* Pods-Matchmaker App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Matchmaker App/Preview Content\"";
+				DEVELOPMENT_TEAM = DP9NJQHGZ5;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Matchmaker-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7389E3E2C516968008CC2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87322C64EA287C53C864A8E7 /* Pods-Matchmaker App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Matchmaker App/Preview Content\"";
+				DEVELOPMENT_TEAM = DP9NJQHGZ5;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Matchmaker-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7389E292C516967008CC2CE /* Build configuration list for PBXProject "Matchmaker App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7389E3A2C516968008CC2CE /* Debug */,
+				F7389E3B2C516968008CC2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7389E3C2C516968008CC2CE /* Build configuration list for PBXNativeTarget "Matchmaker App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7389E3D2C516968008CC2CE /* Debug */,
+				F7389E3E2C516968008CC2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7389E502C52A951008CC2CE /* MatchmakerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7389E512C52A951008CC2CE /* MatchmakerApp.xcdatamodel */,
+			);
+			currentVersion = F7389E512C52A951008CC2CE /* MatchmakerApp.xcdatamodel */;
+			name = MatchmakerApp.xcdatamodeld;
+			path = "/Users/hungerbox/Desktop/Matchmaker App/Matchmaker App/MatchmakerApp.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7389E262C516967008CC2CE /* Project object */;
+}
