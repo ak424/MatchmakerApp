@@ -16,7 +16,6 @@ class UserDetailsViewModel: ObservableObject {
     /// Function to call userDetailsAPI and prepare the required list on the basis of results. Handles the logic syncing up data from database.
     func fetchUserDetails() {
         self.viewState = .fullScreenLoading(text: "Preparing the appropriate matches for you.")
-        PersistenceManager.shared.clearAllData()
         UserDetailsNetworkAPIs.sendGetUserListRequest { [weak self] (userResponse, apiError) in
             guard let strongSelf = self else {
                 return

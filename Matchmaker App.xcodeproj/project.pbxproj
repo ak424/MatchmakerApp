@@ -103,9 +103,7 @@
 		F7389E302C516967008CC2CE /* Matchmaker App */ = {
 			isa = PBXGroup;
 			children = (
-				F7389E502C52A951008CC2CE /* MatchmakerApp.xcdatamodeld */,
-				F7389E5A2C52CA94008CC2CE /* CardDetails+CoreDataClass copy.swift */,
-				F7389E582C52CA87008CC2CE /* CardDetails+CoreDataProperties copy.swift */,
+				F76348622C579CBE0029C05D /* XcModels */,
 				F7389E5C2C52CB42008CC2CE /* PersistenceManager.swift */,
 				F7389E3F2C5170BF008CC2CE /* NetworkService.swift */,
 				F7389E412C517171008CC2CE /* NetworkRequest.swift */,
@@ -131,6 +129,16 @@
 				F7389E382C516968008CC2CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F76348622C579CBE0029C05D /* XcModels */ = {
+			isa = PBXGroup;
+			children = (
+				F7389E502C52A951008CC2CE /* MatchmakerApp.xcdatamodeld */,
+				F7389E5A2C52CA94008CC2CE /* CardDetails+CoreDataClass copy.swift */,
+				F7389E582C52CA87008CC2CE /* CardDetails+CoreDataProperties copy.swift */,
+			);
+			path = XcModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -480,8 +488,7 @@
 				F7389E512C52A951008CC2CE /* MatchmakerApp.xcdatamodel */,
 			);
 			currentVersion = F7389E512C52A951008CC2CE /* MatchmakerApp.xcdatamodel */;
-			name = MatchmakerApp.xcdatamodeld;
-			path = "/Users/hungerbox/Desktop/Matchmaker App/Matchmaker App/MatchmakerApp.xcdatamodeld";
+			path = MatchmakerApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
